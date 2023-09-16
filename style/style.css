@@ -1,0 +1,86 @@
+
+/* Adjust Box Sizing */
+*{
+    box-sizing: border-box;
+}
+
+/* Normalize Size of Recipe Images */
+.recipe-hero{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Background Color */
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,169,245,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Emphasize Descriptions */
+
+.description{
+    font-size: 2em;
+    font-style: italic;
+    font-weight: thin;
+    padding: 50px;
+    color: wheat;
+}
+
+/* Space out Lists */
+li{
+    margin-bottom: 4px;
+    color: wheat;
+}
+/* Center H1s */
+h1{
+    text-align: center;
+}
+
+/* Columns */
+
+h2{
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+
+.ingredients li{
+    text-align: center;
+    list-style-type: none;
+}
+.steps,.ingredients{
+    float: left;
+    width: 50%;
+    border-left:4px solid rgba(87, 172, 87, 0.438);
+    height: 500px;
+}
+
+/* Center h4/Description Heading */
+h4{
+    text-align: center;
+}
+
+a{
+    color: wheat;
+}
+
+a:hover{
+    color:red;
+}
+
+nav{
+    text-align: center;
+}
+
+/* Return Home Fixed{ */
+
+.smolpog{
+    height:200px;
+    width: auto;
+}
+
+div{
+    position: fixed;
+}
